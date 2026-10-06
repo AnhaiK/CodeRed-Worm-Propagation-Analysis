@@ -1,0 +1,21 @@
+# Julia
+Manifest.toml
+.julia/
+*.ji
+
+# Restricted/source data: never commit the dataset
+data/*
+!data/.gitkeep
+
+# Generated results
+results/*
+!results/.gitkeep
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+*~
+
+# Temporary Julia/editor files
+tempCodeRunnerFile.jl
